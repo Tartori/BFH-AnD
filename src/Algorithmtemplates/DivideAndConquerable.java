@@ -2,13 +2,13 @@ package Algorithmtemplates;
 import java.util.Vector;
 
 public interface DivideAndConquerable <OutputType > {
-    abstract boolean isBase();
+    boolean isBase();
 
-    abstract OutputType baseFun();
+    OutputType baseFun();
 
-    abstract Vector<DivideAndConquerable<OutputType>> decompose();
+    Vector<DivideAndConquerable<OutputType>> decompose();
 
-    abstract OutputType recompose(Vector<OutputType> intermediateResults);
+    OutputType recompose(Vector<OutputType> intermediateResults);
 
 
     default OutputType divideAndConquer() {
