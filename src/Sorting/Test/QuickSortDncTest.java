@@ -18,4 +18,17 @@ public class QuickSortDncTest {
 
         Assert.assertArrayEquals(sorted,intsExpected);
     }
+
+    @Test
+    public void TestSorted() {
+        Integer[] ints = new Integer[]{1, 2, 3, 4, 5, 7, 8};
+
+        QuickSortDnC<Integer> sorter = new QuickSortDnC<>(Integer::compareTo);
+
+        Integer[] sorted = sorter.sort(ints);
+
+        Integer[] intsExpected = new Integer[]{1, 2, 3, 4, 5, 7, 8};
+
+        Assert.assertArrayEquals(sorted,intsExpected);
+    }
 }
