@@ -1,6 +1,6 @@
-package Sorting.Test;
+package sorting.array.test;
 
-import Sorting.QuickSortDnC;
+import sorting.array.QuickSortDnC;
 import org.junit.Assert;
 import org.junit.Test;
 

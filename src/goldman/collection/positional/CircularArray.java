@@ -14,7 +14,7 @@ import java.util.Comparator;
  * indices wrapping around as needed.  Managing this introduces a small
  * amount of overhead, but enables
  * efficient insertion and deletion near either the front or end of the collection.
- * Like Array, there is no support for automatic resizing.  This is an untracked implementation.
+ * Like array, there is no support for automatic resizing.  This is an untracked implementation.
 **/
 
 public class CircularArray<E> extends Array<E> {

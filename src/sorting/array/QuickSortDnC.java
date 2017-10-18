@@ -1,4 +1,4 @@
-package Sorting;
+package sorting.array;
 
 import Algorithmtemplates.DivideAndConquerable;
 

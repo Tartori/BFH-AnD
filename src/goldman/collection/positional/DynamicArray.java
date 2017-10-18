@@ -11,14 +11,14 @@ import java.util.Comparator;
 /**
  * This array-based data structure provides space for a fixed number
  * of elements, which are stored in an underlying Java primitive array.
- * However unlike Array and CircularArray, it performs automatic resizing.
+ * However unlike array and CircularArray, it performs automatic resizing.
  * When the size of the collection
  * is unknown or changing, the support for automatic resizing is important.
  * However, the resizing introduces a small amount of additional computation whenever
  * an element is added or removed, and the resizing method has linear cost
  * (though the amortized cost is constant).  On average, the size of the array
  * is roughly 50\% larger than
- * that needed.   As with Array and CircularArray,
+ * that needed.   As with array and CircularArray,
  * DynamicArray supports user-controlled resizing through <code>ensureCapacity</code>
  * and <code>trimToSize</code>.
  * When the size of the collection matches that of the user-specified capacity,

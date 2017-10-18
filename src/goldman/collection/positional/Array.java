@@ -20,7 +20,7 @@ import java.util.ConcurrentModificationException;
 import java.util.NoSuchElementException;
 import static java.lang.Math.*;
 /**
- * The simplest of the positional collections, Array provides space for
+ * The simplest of the positional collections, array provides space for
  * a fixed number of elements, which are stored in an underlying Java primitive array.
  * Methods are provided for changing the capacity of the collection, but there is no
  * support for automatic resizing. If the approximate size of the collection is known

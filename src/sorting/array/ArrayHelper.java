@@ -1,4 +1,4 @@
-package Sorting;
+package sorting.array;
 
 public class ArrayHelper {
     public static <E> void swap(E[] data, int i, int j){

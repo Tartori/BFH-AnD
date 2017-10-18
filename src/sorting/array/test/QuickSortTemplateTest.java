@@ -1,6 +1,6 @@
-package Sorting.Test;
+package sorting.array.test;
 
-import Sorting.QuickSortTemplate;
+import sorting.array.QuickSortTemplate;
 import org.junit.Assert;
 import org.junit.Test;
 

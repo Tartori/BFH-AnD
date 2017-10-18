@@ -1,7 +1,6 @@
-package Sorting.Test;
+package sorting.array.test;
 
-import Sorting.MergeSortDnC;
-import Sorting.MergeSortTemplate;
+import sorting.array.MergeSortDnC;
 import org.junit.Assert;
 import org.junit.Test;
 
